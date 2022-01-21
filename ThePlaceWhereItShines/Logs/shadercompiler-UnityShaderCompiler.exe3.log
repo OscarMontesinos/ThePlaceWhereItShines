@@ -214,3 +214,6 @@ Cmd: compileComputeKernel
 
 
 
+Cmd: shutdown
+
+Quitting shader compiler process

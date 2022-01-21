@@ -762,3 +762,212 @@ Received Import Request.
 Start importing Assets/Packages/Sonidos using Guid(809f57594ef9e6444bb49c324b9cc1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115b1420146f1ad23b8a6530b8888057') in 0.008218 seconds 
   Import took 0.010728 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 195.141880 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack
+  artifactKey: Guid(fb6ca30714ea3ea489f5394dcfaf59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack using Guid(fb6ca30714ea3ea489f5394dcfaf59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008db9b075652bd35e1d5329c4d231d1') in 0.006353 seconds 
+  Import took 0.008861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.736950 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs
+  artifactKey: Guid(79d1a871533b28849beed9b359cca993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs using Guid(79d1a871533b28849beed9b359cca993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d082f32ae306aab864b7c84e4f8079') in 0.006807 seconds 
+  Import took 0.009083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057436 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type1 01.prefab
+  artifactKey: Guid(75283e9ef15245c4aab126ec6525dd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type1 01.prefab using Guid(75283e9ef15245c4aab126ec6525dd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5439e954506c12f67cc59be44a7f31') in 0.047571 seconds 
+  Import took 0.049810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type2 04.prefab
+  artifactKey: Guid(5578b82f17c954843901e8b68ca21dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type2 04.prefab using Guid(5578b82f17c954843901e8b68ca21dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c841cea480e841a8dededa01afb23f02') in 0.013629 seconds 
+  Import took 0.016625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type3 04.prefab
+  artifactKey: Guid(ace40d2a4a1290f4f96f01a7e4ecd7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type3 04.prefab using Guid(ace40d2a4a1290f4f96f01a7e4ecd7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0defb7eb343a64962226763e6278f315') in 0.013859 seconds 
+  Import took 0.016247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type2 02.prefab
+  artifactKey: Guid(41dcf1459594f434a8a9bae6ae03eab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type2 02.prefab using Guid(41dcf1459594f434a8a9bae6ae03eab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a30703ea4f32132e802af3dc8815a44') in 0.015963 seconds 
+  Import took 0.018514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type4 04.prefab
+  artifactKey: Guid(ccbe3c5efe0bbed4bbe4b8651efb2db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type4 04.prefab using Guid(ccbe3c5efe0bbed4bbe4b8651efb2db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d438b23502121b452c2caefdbbb36c8') in 0.015942 seconds 
+  Import took 0.018324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type6 03.prefab
+  artifactKey: Guid(48333a5aa700be24c963813c82ef05d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type6 03.prefab using Guid(48333a5aa700be24c963813c82ef05d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e789e16520b3d461be1a7d55320b49b0') in 0.014541 seconds 
+  Import took 0.016691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type6 02.prefab
+  artifactKey: Guid(bcd44f8d0f766b340b72d555a8df8a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type6 02.prefab using Guid(bcd44f8d0f766b340b72d555a8df8a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb10e645fdd92d633c1811bc3ef957d') in 0.014445 seconds 
+  Import took 0.016639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type1 03.prefab
+  artifactKey: Guid(85f4229977c9ee247bc4425710c5b0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type1 03.prefab using Guid(85f4229977c9ee247bc4425710c5b0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f872385fd6629c5eeda717ca4b1a5b') in 0.015211 seconds 
+  Import took 0.017653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type1 04.prefab
+  artifactKey: Guid(105b83a46d287294bbe7892a1e1f2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type1 04.prefab using Guid(105b83a46d287294bbe7892a1e1f2ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ccd5d77d1421b1e1d5585530cede15') in 0.015848 seconds 
+  Import took 0.018001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type4 01.prefab
+  artifactKey: Guid(e9661e4c2bfea8344a07064944abe034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type4 01.prefab using Guid(e9661e4c2bfea8344a07064944abe034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacacb57a94f8beee0fdc09c3cce4259') in 0.014844 seconds 
+  Import took 0.017070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type3 02.prefab
+  artifactKey: Guid(61b490990a08faa419b1bb6a6708ad09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type3 02.prefab using Guid(61b490990a08faa419b1bb6a6708ad09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50be1d2e07088f54e3e5c3c835c8c067') in 0.012942 seconds 
+  Import took 0.015490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type6 04.prefab
+  artifactKey: Guid(7710ce4a7ee932b4a86742119e3babae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type6 04.prefab using Guid(7710ce4a7ee932b4a86742119e3babae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ad382a116ccd3b348b1857b79bbdcc') in 0.013066 seconds 
+  Import took 0.015652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type3 01.prefab
+  artifactKey: Guid(b73c6c1069411b947aaaa9d12c37c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type3 01.prefab using Guid(b73c6c1069411b947aaaa9d12c37c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c9afafd0db74acddb6c0530beec692') in 0.012562 seconds 
+  Import took 0.014841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type5 03.prefab
+  artifactKey: Guid(1fdb4e5d510354f43bcd6ed13b8eb3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type5 03.prefab using Guid(1fdb4e5d510354f43bcd6ed13b8eb3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13df794ae73d5ae1a85c12d9fdd04c4') in 0.013707 seconds 
+  Import took 0.016114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type2 01.prefab
+  artifactKey: Guid(2d521608fcf07c346b5e2ed4049aa717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type2 01.prefab using Guid(2d521608fcf07c346b5e2ed4049aa717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47156d0a8772612f079ad305d48f50f6') in 0.014295 seconds 
+  Import took 0.016908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type1 02.prefab
+  artifactKey: Guid(dc8f0d303746c2a4b89ee60884906304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type1 02.prefab using Guid(dc8f0d303746c2a4b89ee60884906304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b8c72e9d7fd6a7eae6c494ac86d80b') in 0.013219 seconds 
+  Import took 0.015539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type3 03.prefab
+  artifactKey: Guid(be320b6d231cacc4894038f2c3375674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type3 03.prefab using Guid(be320b6d231cacc4894038f2c3375674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb7197d1a406092c19e298b39eb7028') in 0.013863 seconds 
+  Import took 0.016096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type4 03.prefab
+  artifactKey: Guid(491333d4c0bd88148813a9dde7fe955b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type4 03.prefab using Guid(491333d4c0bd88148813a9dde7fe955b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37b66f88554634d8e0d2d5ed10827d8') in 0.013063 seconds 
+  Import took 0.015277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type5 04.prefab
+  artifactKey: Guid(329d0b0187f24cd4da9f775d83708bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type5 04.prefab using Guid(329d0b0187f24cd4da9f775d83708bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd424562a8555e7bdd21ffc54cba7063') in 0.014101 seconds 
+  Import took 0.016869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type5 01.prefab
+  artifactKey: Guid(e9cb95ee3e55d914bbd4e5eb2d0a510c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type5 01.prefab using Guid(e9cb95ee3e55d914bbd4e5eb2d0a510c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a97af42115b269f21c6ecce98e28c5c') in 0.012456 seconds 
+  Import took 0.014967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type4 02.prefab
+  artifactKey: Guid(3a699487877e77b439ff09deb77625e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type4 02.prefab using Guid(3a699487877e77b439ff09deb77625e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9426e8d3d1e0a96de66d8674da60ff0') in 0.013263 seconds 
+  Import took 0.015563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type6 01.prefab
+  artifactKey: Guid(78a4b58c8edc1884e932497bbb0da899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type6 01.prefab using Guid(78a4b58c8edc1884e932497bbb0da899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c25f9c1e4d5328af8f9a75cc76dd49') in 0.012114 seconds 
+  Import took 0.014359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type2 03.prefab
+  artifactKey: Guid(36cf43d46aeb7494b82aa54d61da3bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type2 03.prefab using Guid(36cf43d46aeb7494b82aa54d61da3bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c9dbdd5e4a700f865f35459c6a069f') in 0.012715 seconds 
+  Import took 0.015105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type5 02.prefab
+  artifactKey: Guid(f584b275cfb132f48a2ec91fd9d1b576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Entorno/BrokenVector/LowPolyRockPack/Prefabs/Rock Type5 02.prefab using Guid(f584b275cfb132f48a2ec91fd9d1b576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeca8b55573ee01eb0f1ebf1434b795f') in 0.014230 seconds 
+  Import took 0.016268 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
