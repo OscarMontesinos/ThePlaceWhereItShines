@@ -5,23 +5,46 @@ using UnityEngine.UI;
 
 public class Interactuador : MonoBehaviour
 {
-    Image mostrarNota;
+    public SpriteRenderer mostrarNota;
     bool tenazas = false;
     bool cristal = false;
     bool cristalLuz = false;
     public GameObject luz;
+    public Text interactuar;
+    bool interactuacion;
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.E))
+        {
+            interactuacion = true;
+            Debug.Log("22222222222");
+
+        }
+        else
+        {
+            interactuacion = false;
+        }
+
+
+    }
     private void OnTriggerStay(Collider other)
     {
-        if(Input.GetKeyDown(KeyCode.E) && other.tag == "Nota")
+        if (other.gameObject.tag == "Nota" || other.gameObject.tag == "Tenazas" || other.gameObject.tag == "Cristal" || other.gameObject.tag == "Puerta" || other.gameObject.tag == "CristalLuz")
         {
-            mostrarNota = other.gameObject.GetComponent<Nota>().contenido;
+            interactuar.gameObject.SetActive(true);
         }
-        if (Input.GetKeyDown(KeyCode.E) && other.tag == "Tenazas")
+
+        if (interactuacion && other.gameObject.tag == "Nota")
+        {
+            mostrarNota.sprite = other.gameObject.GetComponent<Nota>().contenido;
+            Debug.Log("11111111111");
+        }
+        if (interactuacion && other.gameObject.tag == "Tenazas")
         {
             Destroy(other);
             tenazas = true;
         }
-        if (Input.GetKeyDown(KeyCode.E) && other.tag == "Cristal")
+        if (interactuacion && other.gameObject.tag == "Cristal")
         {
             if (tenazas)
             {
@@ -29,11 +52,11 @@ public class Interactuador : MonoBehaviour
                 cristal = true;
             }
         }
-        if (Input.GetKeyDown(KeyCode.E) && other.tag == "Puerta")
+        if (interactuacion && other.gameObject.tag == "Puerta")
         {
             other.gameObject.GetComponent<Puerta>().AbrirPuerta();
         }
-        if (Input.GetKeyDown(KeyCode.E) && other.tag == "CristalLuz")
+        if (interactuacion && other.gameObject.tag == "CristalLuz")
         {
             luz.SetActive(true);
             Destroy(other);
@@ -41,5 +64,14 @@ public class Interactuador : MonoBehaviour
         }
 
 
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        interactuar.gameObject.SetActive(false);
+
+        if (other.gameObject.tag == "Nota")
+        {
+            mostrarNota.sprite = null;
+        }
     }
 }

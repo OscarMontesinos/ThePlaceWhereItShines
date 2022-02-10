@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Nota
+public class Nota : MonoBehaviour
 {
-    public Image contenido;
+    public Sprite contenido;
 }
