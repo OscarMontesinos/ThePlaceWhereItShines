@@ -33,8 +33,9 @@ public class PJ : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Space) && grounded)
         {
-            grounded = false;
+            
             _rigidbody.AddForce(new Vector3(0, 30, 0), ForceMode.Impulse);
+            grounded = false;
         }
 
         // Leemos los inputs para el desplazamiento del jugador
@@ -73,6 +74,7 @@ public class PJ : MonoBehaviour
     {
         grounded = true;
     }
+
 
 
 }

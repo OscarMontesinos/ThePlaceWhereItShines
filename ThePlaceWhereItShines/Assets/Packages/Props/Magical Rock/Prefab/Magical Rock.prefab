@@ -4771,7 +4771,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4868,7 +4867,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1166004639, guid: f7212198e558b7341b401baa0b80e1d7, type: 3}
+  - {fileID: 2100000, guid: a28e03047ce36d349aa6d740a0dda509, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5060,7 +5059,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -1833811537, guid: f7212198e558b7341b401baa0b80e1d7, type: 3}
+  - {fileID: 2100000, guid: a28e03047ce36d349aa6d740a0dda509, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5159,7 +5158,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 13086565, guid: f7212198e558b7341b401baa0b80e1d7, type: 3}
+  - {fileID: 2100000, guid: a28e03047ce36d349aa6d740a0dda509, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5413,9 +5412,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1850206159510246}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_LocalScale: {x: 0.022426313, y: 0.022426313, z: 0.022426313}
   m_Children:
   - {fileID: 4956342973397410}
   - {fileID: 4686561011936524}
@@ -5489,9 +5488,9 @@ MonoBehaviour:
   _LOD0Renderer: {fileID: 137581158086696056}
   _LOD1Renderer: {fileID: 137929183778099932}
   _LOD2Renderer: {fileID: 137182952342554288}
-  _LOD0GreenMat: {fileID: -1833811537, guid: f7212198e558b7341b401baa0b80e1d7, type: 3}
-  _LOD1GreenMat: {fileID: 1166004639, guid: f7212198e558b7341b401baa0b80e1d7, type: 3}
-  _LOD2GreenMat: {fileID: 13086565, guid: f7212198e558b7341b401baa0b80e1d7, type: 3}
+  _LOD0GreenMat: {fileID: 0}
+  _LOD1GreenMat: {fileID: 2100000, guid: a28e03047ce36d349aa6d740a0dda509, type: 2}
+  _LOD2GreenMat: {fileID: 2100000, guid: a28e03047ce36d349aa6d740a0dda509, type: 2}
   _LOD0NormalMat: {fileID: 2132068735, guid: f7212198e558b7341b401baa0b80e1d7, type: 3}
   _LOD1NormalMat: {fileID: 127043912, guid: f7212198e558b7341b401baa0b80e1d7, type: 3}
-  _LOD2NormalMat: {fileID: -650877977, guid: f7212198e558b7341b401baa0b80e1d7, type: 3}
+  _LOD2NormalMat: {fileID: 0}
