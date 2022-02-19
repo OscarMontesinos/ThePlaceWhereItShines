@@ -54,7 +54,7 @@ public class PJ : MonoBehaviour
     private void FixedUpdate()
     {
 
-        _rigidbody.velocity = transform.forward * speed * inputMov.y  // Movimiento hacia adelante y atrás del PJ
+        _rigidbody.velocity = transform.forward * speed * -inputMov.y  // Movimiento hacia adelante y atrás del PJ
                               + transform.right * speed * inputMov.x  // Movimiento hacia izquierda y derecha del PJ
                               + new Vector3(0, _rigidbody.velocity.y, 0); // Para hacer que baje por la gravedad
 
@@ -66,8 +66,8 @@ public class PJ : MonoBehaviour
     {
         rotX -= inputRot.y;
         rotX = Mathf.Clamp(rotX, -65, 65); // Establecemos límites en la rotación vertical de la cámara
-        transform.Rotate(0, inputRot.x * sensiblityMouse, 0f); // Rotación horizontal de la cámara
-        playerCamera.transform.localRotation = Quaternion.Euler(rotX, 0f, 0f); // Rotación vertical de la cámara
+        transform.Rotate(0, inputRot.x * -sensiblityMouse, 0f); // Rotación horizontal de la cámara
+        playerCamera.transform.localRotation = Quaternion.Euler(rotX +180, 0f, 0f); // Rotación vertical de la cámara
     }
 
     private void OnCollisionEnter(Collision collision)
