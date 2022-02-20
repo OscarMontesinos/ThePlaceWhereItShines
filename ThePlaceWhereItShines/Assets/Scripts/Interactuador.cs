@@ -12,12 +12,15 @@ public class Interactuador : MonoBehaviour
     public GameObject luz;
     public Text interactuar;
     bool interactuacion;
+
+    public GameObject cristalesEncendidos;
+    public GameObject cristalesApagados;
+
     private void Update()
     {
         if (Input.GetKey(KeyCode.E))
         {
             interactuacion = true;
-            Debug.Log("22222222222");
 
         }
         else
@@ -37,19 +40,20 @@ public class Interactuador : MonoBehaviour
         if (interactuacion && other.gameObject.tag == "Nota")
         {
             mostrarNota.sprite = other.gameObject.GetComponent<Nota>().contenido;
-            Debug.Log("11111111111");
         }
         if (interactuacion && other.gameObject.tag == "Tenazas")
         {
-            Destroy(other);
+            Destroy(other.gameObject);
             tenazas = true;
         }
         if (interactuacion && other.gameObject.tag == "Cristal")
         {
             if (tenazas)
             {
-                Destroy(other);
+                Destroy(other.gameObject);
                 cristal = true;
+                cristalesApagados.SetActive(true);
+                cristalesEncendidos.SetActive(false);
             }
         }
         if (interactuacion && other.gameObject.tag == "Puerta")
@@ -59,7 +63,7 @@ public class Interactuador : MonoBehaviour
         if (interactuacion && other.gameObject.tag == "CristalLuz")
         {
             luz.SetActive(true);
-            Destroy(other);
+            Destroy(other.gameObject);
 
         }
 
