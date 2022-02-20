@@ -14,12 +14,15 @@ public class PJ : MonoBehaviour
     private Vector2 inputRot;
     private Rigidbody _rigidbody;
     private float rotX;
+    public AudioSource pasosAudio;
+    public float paso;
 
     bool grounded;
 
 
     void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         // Recuperamos el componente Rigidbody del player para poder trabajar con el
         _rigidbody = GetComponent<Rigidbody>();
 
@@ -30,7 +33,26 @@ public class PJ : MonoBehaviour
 
     void Update()
     {
-
+        paso += Time.deltaTime;
+        if (paso > 0.85f)
+        {
+            paso = 0;
+            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+            {
+                if (grounded)
+                {
+                    pasosAudio.Play();
+                    if (pasosAudio.pitch == 1)
+                    {
+                        pasosAudio.pitch = 1.50f;
+                    }
+                    else
+                    {
+                        pasosAudio.pitch = 1;
+                    }
+                }
+            }
+        }
         if (Input.GetKey(KeyCode.Space) && grounded)
         {
             
@@ -73,7 +95,9 @@ public class PJ : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         grounded = true;
+
     }
+    
 
 
 
