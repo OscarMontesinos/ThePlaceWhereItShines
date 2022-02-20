@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Ascensor : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class Ascensor : MonoBehaviour
     public GameObject planta2;
     public GameObject planta3;
     public GameObject pj;
+    public Text interactuarAsc;
     // Start is called before the first frame update
     void Start()
     {
@@ -66,13 +68,13 @@ public class Ascensor : MonoBehaviour
         var distancia = planta.transform.position - plataforma.transform.position;
         while(distancia.magnitude > 0.3)
         {
-            plataforma.transform.Translate(distancia.normalized * 10 * Time.deltaTime);
+            plataforma.transform.Translate(distancia.normalized * 4 * Time.deltaTime);
             if (ready)
             {
-                pj.transform.Translate(distancia.normalized * 3 * Time.deltaTime);
+                pj.transform.Translate(distancia.normalized * 4 * Time.deltaTime);
             }
-            distancia = planta.transform.position - plataforma.transform.position;
-            yield return new WaitForSeconds(0.001f);
+            distancia = planta.transform.localPosition - plataforma.transform.localPosition;
+            yield return new WaitForSeconds(0.01f);
         }
         mov = false;
     }
@@ -81,6 +83,7 @@ public class Ascensor : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            interactuarAsc.gameObject.SetActive(true);
             ready = true;
             pj = other.gameObject;
         }
@@ -91,6 +94,7 @@ public class Ascensor : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             ready = false;
+            interactuarAsc.gameObject.SetActive(false);
         }
     }
 

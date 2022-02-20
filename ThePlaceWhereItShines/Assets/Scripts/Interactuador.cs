@@ -1,17 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Interactuador : MonoBehaviour
 {
     public SpriteRenderer mostrarNota;
     bool tenazas = false;
-    bool cristal = false;
+    public bool cristal = false;
     bool cristalLuz = false;
     public GameObject luz;
     public Text interactuar;
     bool interactuacion;
+    public int contador=1200;
+    public Text contadorT;
+    public bool contar = false;
+    float auxCount;
 
     public GameObject cristalesEncendidos;
     public GameObject cristalesApagados;
@@ -28,6 +33,20 @@ public class Interactuador : MonoBehaviour
             interactuacion = false;
         }
 
+        if (contar)
+        {
+            auxCount += Time.deltaTime;
+            if(auxCount > 1)
+            {
+                auxCount = 0;
+                contador--;
+                contadorT.text = contador.ToString();
+                if(contador == 0)
+                {
+                    SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+                }
+            }
+        }
 
     }
     private void OnTriggerStay(Collider other)

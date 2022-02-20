@@ -60,6 +60,8 @@ MonoBehaviour:
   mostrarNota: {fileID: 0}
   luz: {fileID: 1540770248}
   interactuar: {fileID: 0}
+  cristalesEncendidos: {fileID: 0}
+  cristalesApagados: {fileID: 0}
 --- !u!1 &1540770248
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,6 +319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7.5
+  speedFast: 12.5
   sensiblityMouse: 3.5
   playerCamera: {fileID: 6632592039048298712}
   pasosAudio: {fileID: 693076345113127971}
@@ -347,7 +350,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: aa17dfc010702ea4499f71f529dcfeba, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.148
   m_Pitch: 1
   Loop: 0
   Mute: 0

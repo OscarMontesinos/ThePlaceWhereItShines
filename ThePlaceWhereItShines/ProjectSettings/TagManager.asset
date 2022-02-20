@@ -7,6 +7,8 @@ TagManager:
   - Nota
   - Tenazas
   - Cristal
+  - Puerta
+  - Empezar
   layers:
   - Default
   - TransparentFX

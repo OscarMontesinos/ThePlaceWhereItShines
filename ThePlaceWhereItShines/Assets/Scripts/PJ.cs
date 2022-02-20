@@ -6,6 +6,7 @@ public class PJ : MonoBehaviour
 {
     // Atributes
     [SerializeField] private float speed;
+    [SerializeField] private float speedFast;
     [SerializeField] private float sensiblityMouse;
     [SerializeField] private Transform playerCamera;
 
@@ -16,12 +17,14 @@ public class PJ : MonoBehaviour
     private float rotX;
     public AudioSource pasosAudio;
     public float paso;
+    Interactuador inter;
 
-    bool grounded;
+    public bool grounded;
 
 
     void Start()
     {
+        inter = transform.GetChild(1).transform.GetChild(0).GetComponent<Interactuador>();
         Cursor.lockState = CursorLockMode.Locked;
         // Recuperamos el componente Rigidbody del player para poder trabajar con el
         _rigidbody = GetComponent<Rigidbody>();
@@ -34,6 +37,10 @@ public class PJ : MonoBehaviour
     void Update()
     {
         paso += Time.deltaTime;
+        if (Input.GetKey(KeyCode.LeftShift) && !inter.cristal)
+        {
+            paso += Time.deltaTime;
+        }
         if (paso > 0.85f)
         {
             paso = 0;
@@ -76,9 +83,18 @@ public class PJ : MonoBehaviour
     private void FixedUpdate()
     {
 
-        _rigidbody.velocity = transform.forward * speed * -inputMov.y  // Movimiento hacia adelante y atrás del PJ
+        if (Input.GetKey(KeyCode.LeftShift) && !inter.cristal)
+        {
+            _rigidbody.velocity = transform.forward * speedFast * -inputMov.y  // Movimiento hacia adelante y atrás del PJ
+                              + transform.right * speedFast * inputMov.x  // Movimiento hacia izquierda y derecha del PJ
+                              + new Vector3(0, _rigidbody.velocity.y, 0); // Para hacer que baje por la gravedad
+        }
+        else
+        {
+            _rigidbody.velocity = transform.forward * speed * -inputMov.y  // Movimiento hacia adelante y atrás del PJ
                               + transform.right * speed * inputMov.x  // Movimiento hacia izquierda y derecha del PJ
                               + new Vector3(0, _rigidbody.velocity.y, 0); // Para hacer que baje por la gravedad
+        }
 
 
     }
@@ -97,7 +113,15 @@ public class PJ : MonoBehaviour
         grounded = true;
 
     }
-    
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Empezar")
+        {
+            Debug.Log("ey");
+            inter.contar = true;
+        }
+    }
+
 
 
 
